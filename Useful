@@ -1,0 +1,6 @@
+#Hyper-V
+
+##disable
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+##enable
+dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
